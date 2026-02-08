@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "02_FragmentExample"
+rootProject.name = "01_AndroidLifecycle"
 include(":app")
  
