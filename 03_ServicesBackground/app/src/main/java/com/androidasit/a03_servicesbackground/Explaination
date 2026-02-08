@@ -18,6 +18,6 @@ c) Bound Service
 Background Service
 ●  Runs  without user interaction or notification  .
 ●  Used for  less important tasks  .
-●  From Android 8 (API 26+), background services have restrictions  .
+●  From Android 8 (API 26+), background services have restrictions.
 ●  Recommended to use  "WorkManager"  for such tasks.
 Example:  Auto-sync, sending logs in the back   ground.
