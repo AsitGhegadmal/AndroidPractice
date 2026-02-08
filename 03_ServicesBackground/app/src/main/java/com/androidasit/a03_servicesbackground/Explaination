@@ -1,0 +1,23 @@
+Q: What are Services in Android and their types?
+●  A Service is an Android component used to perform long-running tasks in the
+   background.
+●  It does not have a user interface.
+●  It can keep running even if the user switches to another app.
+Example:  Playing music, downloading files, tracking  location in the background.
+
+Q: Why use a Service?
+●  To run background tasks  without blocking the UI  .
+●  Useful for tasks that need to run  continuously or  independently  .
+●  Keeps running  even when the user leaves the app  (based  on the service type).
+
+Types of Services in Android:
+a) Foreground Service
+b) Background Service
+c) Bound Service
+
+Background Service
+●  Runs  without user interaction or notification  .
+●  Used for  less important tasks  .
+●  From Android 8 (API 26+), background services have restrictions  .
+●  Recommended to use  "WorkManager"  for such tasks.
+Example:  Auto-sync, sending logs in the back   ground.
